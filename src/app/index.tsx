@@ -1,10 +1,9 @@
-import { RNText } from "@/common";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function Home() {
   return (
     <View style={styles.container}>
-      <RNText>Edit src/app/index.tsx to edit this screen.</RNText>
+      <Text>Home Screen</Text>
     </View>
   );
 }

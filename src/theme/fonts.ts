@@ -47,14 +47,10 @@ interface Ifamily {
 }
 
 export const fontfamily: Ifamily = {
-  Black: "Poppins-Black",
-  Bold: "Poppins-Bold",
-  ExtraBold: "Poppins-ExtraBold",
-  ExtraLight: "Poppins-ExtraLight",
-  Italic: "Poppins-Italic",
-  Light: "Poppins-Light",
-  Medium: "Poppins-Medium",
-  Regular: "Poppins-Regular",
-  SemiBold: "Poppins-SemiBold",
-  Thin: "Poppins-Thin",
+  Bold: "Inter-Bold",
+  Italic: "Inter-Italic",
+  Light: "Inter-Light",
+  Medium: "Inter-Medium",
+  Regular: "Inter-Regular",
+  SemiBold: "Inter-SemiBold",
 };
