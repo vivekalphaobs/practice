@@ -2,6 +2,10 @@
 
 # dependencies
 node_modules/
+yarn.lock
+
+# VS Code
+.vscode/
 
 # Expo
 .expo/
@@ -17,6 +21,10 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+
+# generated native folders
+/ios
+/android
 
 # Metro
 .metro-health-check*
@@ -35,9 +43,3 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
-example
-
-# generated native folders
-/ios
-/android
